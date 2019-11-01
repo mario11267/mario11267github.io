@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>蘭風國樂社</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- Main css -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- 網頁抬頭選單 -->
+    <header>
+        <nav class="navbar navbar-dark bg-secondary navbar-expand-md fixed-top">
+            <div class="container">
+                <!-- LOGO -->
+                <a href="#" class="navbar-brand">
+                    <img src="images/LOGO-WHITE.png" alt="logo" width="95" height="40"/>
+                </a>
+                <!-- 手機選單漢堡按鈕 -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+          <!-- 漢堡ICON -->
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+                <!-- 選單內容 -->
+                <div id="navbar-collapse" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li><a href="#product" class="nav-link">社團</a></li>
+                        <li><a href="#video" class="nav-link">影片</a></li>
+                        <li><a href="#creative" class="nav-link">分部</a></li>
+                        <li><a href="#activity" class="nav-link">活動</a></li>
+                        <li><a href="#standard" class="nav-link">聯繫</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 可以輪播的Banner圖片 -->
+    <section id="product">
+        <div id="carousel-controller" class="carousel slide" data-ride="carousel">
+            <!-- 輪播圖片 -->
+            <div class="carousel-inner">
+                <!-- 圖片1 -->
+                <div class="carousel-item active">
+                    <img class="w-100" src="images/Banner1.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h1>五夜夢迴</h1>
+                        <p>五校聯合 社團成發</p>
+                    </div>
+                </div>
+                <!-- 圖片2 -->
+                <div class="carousel-item">
+                    <img class="w-100" src="images/Banner2.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h1>期初茶會</h1>
+                        <p>新生舊生 社員大會</p>
+                    </div>
+                </div>
+                <!-- 圖片3 -->
+                <div class="carousel-item">
+                    <img class="w-100" src="images/Banner3.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h1>音樂課程</h1>
+                        <p>樂器演奏 專業教學</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 圖片上一頁按鈕 -->
+            <a href="#carousel-controller" data-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <!-- 圖片下一頁按鈕 -->
+            <a href="#carousel-controller" data-slide="next" class=" carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+            <!-- 下方點點 -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-controller" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-controller" data-slide-to="1"></li>
+                <li data-target="#carousel-controller" data-slide-to="2"></li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- 影片 -->
+    <section class="container-fluid video-area" id="video">
+            
+        <div class="video-container">
+            <iframe width="640" height="200" src="https://www.youtube.com/embed/RmsfaA5EVBY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- 產品介紹區塊(創意) -->
+    <section id="creative" class="creative_area">
+        <div class="container">
+            <h2 class="text-center">
+                分部樂器
+            </h2>
+            <!-- 產品照片 -->
+            <div class="row">
+                <!-- 照片組1 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="#"><img alt="產品照片1" src="images/function01.jpg">
+                            <div class="card-title-wrap">
+                                <span class="card-title">彈撥分部</span>
+                                <span class="card-text">琵琶 柳琴 中阮 月琴</span>
+                            </div>
+                            <div class="pic-hover">
+                                <h4>專業指導，新生也上手。</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 照片組2 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="#"><img alt="產品照片2" src="images/function02.jpg">
+                            <div class="card-title-wrap">
+                                <span class="card-title">胡琴分部</span>
+                                <span class="card-text">二胡 中胡 高胡</span>
+                            </div>
+                            <div class="pic-hover">
+                                <h4>專業指導，新生也上手。</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 照片組3 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="#"><img alt="產品照片3" src="images/function03.jpg">
+                            <div class="card-title-wrap">
+                                <span class="card-title">吹管分部</span>
+                                <span class="card-text">中國笛</span>
+                            </div>
+                            <div class="pic-hover">
+                                <h4>專業指導，新生也上手。</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                    <!-- 照片組1 -->
+                    <div class="col">
+                        <div class="card">
+                            <a href="#"><img alt="產品照片1" src="images/function04.jpg">
+                                <div class="card-title-wrap">
+                                    <span class="card-title">揚打分部</span>
+                                    <span class="card-text">揚琴</span>
+                                </div>
+                                <div class="pic-hover">
+                                    <h4>專業指導，新生也上手。</h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 照片組2 -->
+                    <div class="col">
+                        <div class="card">
+                            <a href="#"><img alt="產品照片2" src="images/function05.jpg">
+                                <div class="card-title-wrap">
+                                    <span class="card-title">低音分部</span>
+                                    <span class="card-text">大提琴 低音提琴</span>
+                                </div>
+                                <div class="pic-hover">
+                                    <h4>專業指導，新生也上手。</h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 照片組3 -->
+                    <div class="col">
+                        <div class="card">
+                            <a href="#"><img alt="產品照片3" src="images/function06.jpg">
+                                <div class="card-title-wrap">
+                                    <span class="card-title">打擊分部</span>
+                                    <span class="card-text">木琴 堂鼓 定音鼓</span>
+                                </div>
+                                <div class="pic-hover">
+                                    <h4>專業指導，新生也上手。</h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!-- 商品文案 -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="article_text">
+                </br>
+                    <h3>蘭風國樂社</h3>
+                    <p>中華文化 傳統樂器</br>
+                        百年記憶 經驗傳承</br>
+                        給您愜意 悅耳享受</br>
+                    </p>
+                    <h1>Lan Feng</h1>
+                    <p>社團博覽 期初茶會</br>
+                        社團評鑑 社團成發</br>
+                        服務學習 音樂比賽</br>
+                        期末茶會 聖誕快閃</br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 背景影片 -->
+        <div class="container">
+            <video autoplay muted loop id="myVideo">
+        <source src="video/music.mp4" type="video/mp4">
+      </video>
+        </div>
+    </section>
+
+    <!-- 商品促銷活動區塊 -->
+    <section id="activity" class="activity_area">
+        <div class="container">
+                <img src="images/present.jpg"/>
+        </div>
+    </section>
+    <!-- 規格 -->
+    <section id="standard" class="standard_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <table class="table table-hover">
+                        <tr>
+                            <h5 scope="col">社團說明：</h5>
+                        </tr>
+                        <tbody>
+                            <tr>
+                                <th scope="row">社團性質：</th>
+                                <td>康樂性社團ー國樂社</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">隸屬學校：</th>
+                                <td>國立臺中科技大學</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">社室地點：</th>
+                                <td colspan="2">學生活動中心二樓</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">主要樂器：</th>
+                                <td colspan="2">琵琶 二胡 揚琴 中國笛 大提琴</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">學期社費：</th>
+                                <td colspan="2">1000(含500押金)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <table class="table">
+                        <tr>
+                            <h5 scope="col">注意事項：</h5>
+                        </tr>
+                        <ul class="standard_use">
+                            <li>自主練習時間：請幹部開門即可</li>
+                            <li>每堂課程於中午12:20開始，請在老師開始上課前調音完畢</li>
+                            <li>借用需向幹部申請並填寫借用單</br>
+                            與借用押金，社員100，非社員500，若損壞需賠償</li>
+                            <li>無法到課需事先向組長請假，免填寫請假單，缺課達3堂回收押金</li>
+                        </ul>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 貼心提醒 -->
+    <section>
+        <div class="container content">
+            <div class="row remind">
+                <h4>聯絡我們</h4>
+                <div class="w-100"></div>
+                <ul>
+                    <li>instagram @ nutc.lanfeng</li>
+                    <li>facebook @ 台中科大蘭風國樂社</li>
+                    <li>hashtag # 蘭風國樂社</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁腳 -->
+    <footer class="footer">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-12 footer_logo">
+                    <img src="images/gogo.png">
+                </div>
+                <div class="col-md-4 col-sm-12 footer_address">
+                    <ul>
+                        <li>服務時間：週一至週五 12:00 ~ 13:00</li>
+                        <li>服務地點：中科大活動中心2樓</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row footer_copyright justify-content-center">
+                <p>COPYRIGHT © 2019 lanfeng .ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+
+    <script src="js/back_top.js"></script>
+</body>
+
+</html>
